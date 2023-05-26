@@ -78,3 +78,18 @@ Features
   Contact Us
   Terms
   Privacy
+
+  "./images/icon-access-anywhere.svg"
+  "./images/icon-any-file.svg"
+  "./images/icon-arrow.svg"
+  "./images/icon-collaboration.svg"
+  "./images/icon-email.svg"
+  "./images/icon-location.svg"
+  "./images/icon-phone.svg"
+  "./images/icon-security.svg"
+  "./images/illustration-intro.png"
+  "./images/illustration-stay-productive.png"
+  "./images/logo.svg"
+  "./images/profile-1.jpg"
+  "./images/profile-2.jpg"
+  "./images/profile-3.jpg"
