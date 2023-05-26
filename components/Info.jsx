@@ -27,7 +27,7 @@ export default function Info() {
       {info.map((info) => {
         return (
           <div key={crypto.randomUUID()}>
-            <img src={info.image} />
+            <img src={info.image} alt="" />
             <h1>{info.header}</h1>
             <p>{info.text}</p>
           </div>
