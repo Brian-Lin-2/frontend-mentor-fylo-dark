@@ -1,33 +1,3 @@
-Features
-  Team
-  Sign In
-
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores all your most important files in one secure location. Access them wherever 
-  you need, share and collaborate with friends family, and co-workers.
-
-  Get Started
-
-  Access your files, anywhere
-
-  The ability to use a smartphone, tablet, or computer to access your account means your 
-  files follow you everywhere.
-
-  Security you can trust
-
-  2-factor authentication and user-controlled encryption are just a couple of the security 
-  features we allow to help secure your files.
-
-  Real-time collaboration
-
-  Securely share files and folders with friends, family and colleagues for live collaboration. 
-  No email attachments required.
-
-  Store any type of file
-
-  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-  file types to be securely stored and shared.
 
   Stay productive, wherever you are
 
@@ -78,17 +48,13 @@ Features
   Contact Us
   Terms
   Privacy
-
-  "./images/icon-access-anywhere.svg"
-  "./images/icon-any-file.svg"
+  
   "./images/icon-arrow.svg"
-  "./images/icon-collaboration.svg"
   "./images/icon-email.svg"
   "./images/icon-location.svg"
   "./images/icon-phone.svg"
   "./images/icon-security.svg"
   "./images/illustration-intro.png"
-  "./images/illustration-stay-productive.png"
   "./images/logo.svg"
   "./images/profile-1.jpg"
   "./images/profile-2.jpg"
