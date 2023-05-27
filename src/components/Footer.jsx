@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 my-20">
+      <div className="flex flex-col gap-4 mt-20 mb-28">
         <a>About Us</a>
         <a>Jobs</a>
         <a>Press</a>
