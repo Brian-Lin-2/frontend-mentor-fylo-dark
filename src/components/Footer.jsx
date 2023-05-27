@@ -35,9 +35,9 @@ export default function Footer() {
       </div>
 
       <div>
-        <img />
-        <img />
-        <img />
+        <i className="fa-brands fa-facebook-f"></i>
+        <i className="fa-brands fa-twitter"></i>
+        <i className="fa-brands fa-instagram"></i>
       </div>
     </div>
   );
