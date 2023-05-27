@@ -19,7 +19,6 @@ export default {
       backgroundImage: {
         "curvy-desktop": "./images/bg-curvy-desktop.svg",
         "curvy-mobile": "./images/bg-curvy-mobile.svg",
-        quotes: "./images/bg-quotes.png",
       },
     },
   },
