@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <div className="text-white text-sm font-open-sans">
-      <div className="bg-dark-blue-2 px-5">
+      <div className="bg-dark-blue-2 px-5 lg:px-24">
         <Header />
         <Intro />
         <Info />
