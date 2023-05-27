@@ -17,6 +17,7 @@ export default {
         "open-sans": ["Open Sans", "sans-serif"],
       },
       fontSize: {
+        "1.5xs": "12px",
         "2xs": "10px",
       },
       backgroundImage: {
