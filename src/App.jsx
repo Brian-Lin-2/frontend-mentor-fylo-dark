@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="w-96 bg-black text-white text-sm p-5 bg-dark-blue-2">
+    <div className="w-96 text-white text-sm p-5 bg-dark-blue-2 font-open-sans">
       <Header />
       <Intro />
       <Info />
