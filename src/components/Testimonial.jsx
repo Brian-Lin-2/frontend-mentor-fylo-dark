@@ -23,7 +23,7 @@ export default function Testimonial() {
   return (
     <>
       <img className="w-6 mx-4" src="images/bg-quotes.png" alt="" />
-      <div className="grid grid-cols-1 grids-row-3 font-raleway text-xs gap-6 leading-5 mx-3 mb-52">
+      <div className="grid grid-cols-1 grids-row-3 font-raleway text-xs gap-6 leading-5 mx-3 mb-40">
         {testimonial.map((testimonial) => {
           return (
             <div

@@ -34,10 +34,10 @@ export default function Footer() {
         <a>Privacy</a>
       </div>
 
-      <div>
-        <i className="fa-brands fa-facebook-f"></i>
-        <i className="fa-brands fa-twitter"></i>
-        <i className="fa-brands fa-instagram"></i>
+      <div className="flex gap-2 justify-center text-center mb-8">
+        <i className="fa-brands fa-facebook-f border rounded-full p-1 w-6"></i>
+        <i className="fa-brands fa-twitter border rounded-full p-1 w-6"></i>
+        <i className="fa-brands fa-instagram border rounded-full p-1 w-6"></i>
       </div>
     </div>
   );
