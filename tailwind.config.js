@@ -16,10 +16,6 @@ export default {
         raleway: ["Raleway", "sans-serif"],
         "open-sans": ["Open Sans", "sans-serif"],
       },
-      fontSize: {
-        "1.5xs": "12px",
-        "2xs": "10px",
-      },
       backgroundImage: {
         "curvy-desktop": "./images/bg-curvy-desktop.svg",
         "curvy-mobile": "./images/bg-curvy-mobile.svg",
