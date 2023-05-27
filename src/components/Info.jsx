@@ -23,13 +23,16 @@ export default function Info() {
   ];
 
   return (
-    <div>
+    <div className="grid grid-rows-4 grid-cols-1 gap-24 my-40">
       {info.map((info) => {
         return (
-          <div key={crypto.randomUUID()}>
-            <img src={info.image} alt="" />
-            <h1>{info.header}</h1>
-            <p>{info.text}</p>
+          <div
+            key={crypto.randomUUID()}
+            className="mx-4 flex flex-col items-center text-center"
+          >
+            <img className="mb-6" src={info.image} alt="" />
+            <h1 className="font-bold text-lg mb-4">{info.header}</h1>
+            <p className="font-raleway">{info.text}</p>
           </div>
         );
       })}

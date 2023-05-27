@@ -5,7 +5,7 @@ export default function Header() {
         <img className="w-20" src="./images/logo.svg" alt="" />
       </a>
 
-      <a className="flex gap-5 opacity-75 font-raleway">
+      <a className="flex gap-5 opacity-80 font-raleway">
         <h2>Features</h2>
         <h2>Team</h2>
         <h2>Sign In</h2>
