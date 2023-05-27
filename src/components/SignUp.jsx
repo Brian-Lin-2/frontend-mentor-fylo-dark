@@ -1,6 +1,6 @@
 export default function SignUp() {
   return (
-    <div className="flex flex-col gap-4 text-center px-6 py-8 mx-2 mb-20 bg-dark-blue-1 rounded-lg">
+    <div className="flex flex-col gap-4 text-center px-6 py-8 mx-2 bg-dark-blue-1 rounded-lg relative z-10">
       <h1 className="text-base font-bold">Get early access today</h1>
       <p className="font-raleway opacity-80">
         It only takes a minute to sign up and our free starter tier is extremely

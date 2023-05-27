@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="w-mobile text-white text-sm p-5 bg-dark-blue-2 font-open-sans">
+    <div className="w-mobile text-white text-sm px-5 bg-dark-blue-2 font-open-sans">
       <Header />
       <Intro />
       <Info />

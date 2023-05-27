@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="mx-2">
+    <div className="bg-dark-blue-3 p-5 pt-44 relative -left-5 bottom-36 w-mobile">
       <img className="mx-4 my-12" src="./images/logo.svg" alt="" />
 
       <div className="flex flex-col gap-4">

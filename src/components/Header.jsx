@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="flex justify-between items-center mb-16">
+    <div className="flex justify-between items-center mb-16 pt-5">
       <a>
         <img className="w-20" src="./images/logo.svg" alt="" />
       </a>
