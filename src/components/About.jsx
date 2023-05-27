@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="flex flex-col gap-4 font-raleway mb-40 mx-3">
+    <div className="flex flex-col gap-4 font-raleway mb-40 mx-2">
       <img
         className="mb-6"
         src="./images/illustration-stay-productive.png"

@@ -10,7 +10,7 @@ export default function Intro() {
         <h1 className="text-2xl font-bold mb-6">
           All your files in one secure location, accessible anywhere.
         </h1>
-        <p className="font-raleway px-7 mb-8 opacity-80">
+        <p className="font-raleway px-5 mb-8 opacity-80">
           Fylo stores all your most important files in one secure location.
           Access them wherever you need, share and collaborate with friends
           family, and co-workers.
