@@ -6,7 +6,7 @@ export default function Intro() {
         src="./images/illustration-intro.png"
         alt="files"
       />
-      <div className="mx-72">
+      <div className="lg:mx-72">
         <h1 className="text-2xl font-bold mb-6 lg:text-3xl lg:leading-normal">
           All your files in one secure location, accessible anywhere.
         </h1>
