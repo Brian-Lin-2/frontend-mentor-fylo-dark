@@ -23,7 +23,7 @@ export default function Info() {
   ];
 
   return (
-    <div className="grid grid-rows-4 grid-cols-1 gap-24 my-40">
+    <div className="grid grid-rows-4 grid-cols-1 gap-24 my-40 lg:grid-rows-2 lg:grid-cols-2 lg:mx-28 lg:my-56 lg:items-center lg:gap-16">
       {info.map((info) => {
         return (
           <div
@@ -32,7 +32,7 @@ export default function Info() {
           >
             <img className="mb-6" src={info.image} alt="" />
             <h1 className="font-bold text-lg mb-4">{info.header}</h1>
-            <p className="font-raleway">{info.text}</p>
+            <p className="font-raleway opacity-80 lg:mx-8">{info.text}</p>
           </div>
         );
       })}
