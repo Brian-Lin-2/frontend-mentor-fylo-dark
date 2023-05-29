@@ -11,15 +11,15 @@ export default function About() {
         <h1 className="font-bold text-lg lg:text-4xl lg:mr-40">
           Stay productive, wherever you are
         </h1>
-        <p className="mr-12 opacity-80">
+        <p className="opacity-80 lg:mr-12">
           Never let location be an issue when accessing your files. Fylo has you
           covered for all of your file storage needs.
           <br /> <br />
           Securely share files and folders with friends, family and colleagues
           for live collaboration. No email attachments required.
         </p>
-        <a className="flex items-center gap-2 pb-0.5 border-b border-cyan w-fit lg:mt-2">
-          <p className="text-cyan">See how Fylo works</p>
+        <a className="text-cyan opacity-100 flex items-center gap-2 pb-0.5 border-b border-cyan w-fit lg:mt-2 hover:cursor-pointer hover:opacity-80">
+          <p>See how Fylo works</p>
           <img src="./images/icon-arrow.svg" alt="" />
         </a>
       </div>

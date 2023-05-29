@@ -16,7 +16,7 @@ export default function SignUp() {
           name="email"
           placeholder="example@email.com"
         />
-        <button className="bg-gradient-to-r from-cyan to-blue font-bold p-3 rounded-full text-xs lg:w-1/4">
+        <button className="bg-gradient-to-r from-cyan to-blue font-bold p-3 rounded-full text-xs lg:w-1/4 hover:to-cyan">
           Get Started For Free
         </button>
       </form>
