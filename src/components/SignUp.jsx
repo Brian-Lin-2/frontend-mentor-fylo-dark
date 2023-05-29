@@ -5,14 +5,14 @@ export default function SignUp() {
   const [error, setError] = useState(false);
 
   let emailStyle =
-    "pt-3 pb-2 px-6 rounded-full text-2xs outline-none text-black lg:w-full";
+    "pt-3 pb-2 px-6 rounded-full text-2xs outline-none text-black w-full";
 
   let errorStyle = "hidden";
 
   if (error) {
     emailStyle =
-      "pt-3 pb-2 px-6 rounded-full text-2xs text-black outline outline-2 outline-red-500 lg:w-full";
-    errorStyle = "text-xs text-red-500 text-start mx-5 mt-1 absolute";
+      "pt-3 pb-2 px-6 rounded-full text-2xs text-black outline outline-2 outline-red-500 w-full";
+    errorStyle = "text-xs text-red-500 text-start mx-5 mt-1 lg:absolute";
   }
 
   // Imported regex expression.
@@ -24,10 +24,15 @@ export default function SignUp() {
       );
   };
 
-  const handleError = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    setError(invalidEmail(email));
+    const error = invalidEmail(email);
+    setError(error);
+
+    if (!error) {
+      setEmail("");
+    }
   };
 
   return (
@@ -42,13 +47,13 @@ export default function SignUp() {
       </p>
       <form
         className="flex flex-col gap-4 pt-4 lg:flex-row lg:justify-center lg:items-center lg:p-0 lg:gap-6"
-        onSubmit={(e) => handleError(e)}
+        onSubmit={(e) => handleSubmit(e)}
       >
         <div className="lg:w-7/12">
           <input
             className={emailStyle}
-            htmlFor="email"
             name="email"
+            value={email}
             placeholder="example@email.com"
             onChange={(e) => setEmail(e.target.value)}
           />
